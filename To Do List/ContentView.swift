@@ -13,6 +13,9 @@ struct ContentView: View {
     
     @Environment(ModelData.self) var modelData
 
+    func printAll () {
+        print(modelData.tasks)
+    }
     
     var body: some View {
             NavigationSplitView {
@@ -22,7 +25,9 @@ struct ContentView: View {
                         Text("There is nothing to do!")
                     } else {
                         List(modelData.tasks) { task in
-                            Text(task.task)
+                            Button(task.task) {
+                                printAll()
+                            }
                         }
                     }
                     Spacer()
