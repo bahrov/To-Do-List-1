@@ -11,6 +11,8 @@
 		B41202BE2AEA49EB002DB3A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41202BD2AEA49EB002DB3A2 /* ContentView.swift */; };
 		B41202C02AEA49F0002DB3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41202BF2AEA49F0002DB3A2 /* Assets.xcassets */; };
 		B41202C32AEA49F0002DB3A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41202C22AEA49F0002DB3A2 /* Preview Assets.xcassets */; };
+		B4AAC9C32AEAD57300A5058D /* AddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AAC9C22AEAD57300A5058D /* AddTask.swift */; };
+		B4AAC9C52AEB951E00A5058D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AAC9C42AEB951E00A5058D /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B41202BD2AEA49EB002DB3A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B41202BF2AEA49F0002DB3A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B41202C22AEA49F0002DB3A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4AAC9C22AEAD57300A5058D /* AddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTask.swift; sourceTree = "<group>"; };
+		B4AAC9C42AEB951E00A5058D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				B41202BB2AEA49EB002DB3A2 /* To_Do_ListApp.swift */,
 				B41202BD2AEA49EB002DB3A2 /* ContentView.swift */,
+				B4AAC9C22AEAD57300A5058D /* AddTask.swift */,
+				B4AAC9C42AEB951E00A5058D /* ModelData.swift */,
 				B41202BF2AEA49F0002DB3A2 /* Assets.xcassets */,
 				B41202C12AEA49F0002DB3A2 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B41202BE2AEA49EB002DB3A2 /* ContentView.swift in Sources */,
+				B4AAC9C52AEB951E00A5058D /* ModelData.swift in Sources */,
 				B41202BC2AEA49EB002DB3A2 /* To_Do_ListApp.swift in Sources */,
+				B4AAC9C32AEAD57300A5058D /* AddTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

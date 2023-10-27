@@ -8,10 +8,14 @@
 import SwiftUI
 
 @main
+
 struct To_Do_ListApp: App {
+    @State private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(ModelData())
         }
     }
 }
